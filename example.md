@@ -1,4 +1,4 @@
-##Example Artist
+## Example Artist
 Example artist is a Guitar Youtuber and Entreprenuer making the world a better place through art education.
 
 ### Overnight Challenge
