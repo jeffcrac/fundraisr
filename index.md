@@ -16,6 +16,7 @@ Check out our [example page](https://aulloa.github.io/fundraisr/example)
   <input name="wallet" placeholder="Monero Wallet Address">
   <button type="submit">Sign Up</button>
   <input type="text" name="_gotcha" style="display:none" />
+  <input type="hidden" name="_next" value="{{"success.html?v=" | append: site.github.build_revision | absolute_url}}"/>
 </form>
 
 ### Don't Have a Monero Wallet?
