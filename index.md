@@ -4,7 +4,7 @@
 Fundraisr creates webpages with a cryptocurrency miner, which is software that does a bunch of math for a cryptocurrency. In exchange for having your computer do that math a cryptocurrency will give you a some of it's coin. Fundraisr lets your contributors navigate to a [webpage](#what-does-it-look-like) and mine for you while sending 70% of the coin to you. By having hundreds of users leave the webpage open in the background or even overnight they can contribute without having to deal with cash.
 
 ### What does it look like?
-Check out our [example page](https://aulloa.github.io/fundraisr/example)
+Check out our [example page](http://fundraisr.me/example)
 
 ### Start my Page
 ###### By signing up your page will be added at fundraisr.com/FUNDRAISING_ENTITY
