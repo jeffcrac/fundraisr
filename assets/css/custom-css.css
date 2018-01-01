@@ -26,13 +26,12 @@ nav {
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 48px!important;
 }
 
 h2 {
-	font-size:42px;
-	text-align:center;
-	color:35f9340;
+	font-size:42px!important;
+	color:#5f9340;
 }
 
 #aboutmonero a, #process a {
