@@ -1,0 +1,43 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bg-overlay {
+	background: linear-gradient(rgba(105, 105, 106, 0.6), rgba(105, 105, 106, 0.6)), url(/fundraisr_JC/Images/homepage-hero.jpg);
+    background-size: cover;
+    padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+#the_lead, #aboutmonero {
+	background: #f9f9f9;
+    border-bottom: #dbdbdb 1px solid;
+    border-top: #dbdbdb 1px solid;
+}
+
+#the_lead p {
+    color: #405f93;
+    line-height:1.5;
+    font-size:26px;
+}
+
+nav {
+    background: #405f93;
+}
+
+h1 {
+	font-size: 48px!important;
+}
+
+h2 {
+	font-size:42px!important;
+	color:#5f9340;
+}
+
+#aboutmonero a, #process a {
+	color: #405f93!important;
+}
+
+#aboutmonero a:hover, #process a:hover {
+	color:#5f9340!important;
+}
