@@ -4,8 +4,12 @@
 			<meta charset="UTF-8">
 			<meta name="referrer" content="origin">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
 			
 			<title>{{ page.title }} | Fundraisr.me</title>
+			<meta name="description" content="{{ page.excerpt }}">
 			
 			{% include favicon.html %}
 			{% include og_tags.html %}
@@ -13,22 +17,7 @@
 			{% include head.html %}
 		</head>
   		<body>
-  			{% include nav.html %}
-    			<section id="header">
-    				<div class="bg-overlay text-center"> 
-    					<div class="container pt-5 pb-5">
-  							<h1 class="display-4 text-white font-weight-bold" style="text-shadow: black 3px 3px 5px;">
-  								Monetize Your Passion, Passively.
-  							</h1>
-  							<h2 class="text-white mb-3" style="text-shadow: black 3px 3px 5px;">
-  								Generate revenue for your work without asking your fans to open their wallets.
-  							</h2>
-  							<a href="#getstarted" class="btn btn-success btn-lg" role="button">
-  								Get Started
-  							</a>
-  						</div>
-					</div>
-    			</section>    
+  			{% include nav.html %}   
 			{{ content }}
 			{% include json-d_tags.html %}
 			{% include footer.html %}
