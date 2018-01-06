@@ -5,7 +5,7 @@ permalink: /
 excerpt: Connect with your fans and generate revenue without requiring anyone to pay. Get set up with a ready-to-go webpage that mines for cryptocurrency on your behalf.
 ---
 <section id="header">
-    <div class="ext-center" style="background: linear-gradient(rgba(105, 105, 106, 0.6), rgba(105, 105, 106, 0.6)), url({{ '/Images/homepage-hero.jpg' | absolute_url' }});background-size: cover;padding-top: 75px;padding-bottom: 75px;"> 
+    <div class="text-center" style="background: linear-gradient(rgba(105, 105, 106, 0.6), rgba(105, 105, 106, 0.6)), url({{ '/Images/homepage-hero.jpg' | absolute_url' }});background-size: cover;padding-top: 75px;padding-bottom: 75px;"> 
     	<div class="container pt-5 pb-5">
   			<h1 class="display-4 text-white font-weight-bold" style="text-shadow: black 3px 3px 5px;">
   				Monetize Your Passion, Passively.
@@ -168,28 +168,30 @@ excerpt: Connect with your fans and generate revenue without requiring anyone to
 				<p class="lead text-center pb-3">
   					Start passively generating revenue. Fill out the form below to begin creating your account.
   				</p>
-  				<form>
+  		<form method="POST" action="cryptofundraisr@gmail.com">
   					<div class="form-group">
   						<div class="row">
     						<div class="col">
-      							<input type="text" class="form-control" placeholder="First name *" required>
+      							<input type="text" class="form-control" name="First Name" placeholder="First name *" required>
     						</div>
     						<div class="col">
-      							<input type="text" class="form-control" placeholder="Last name *" required>
+      							<input type="text" class="form-control" name="Last Name" placeholder="Last name *" required>
     						</div>
   						</div>
   					</div>
   					<div class="form-group">
-    					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address *" required>
+    					<input type="email" class="form-control" id="exampleFormControlInput1" name="Email Address" placeholder="Email address *" required>
   					</div>
   					<div class="form-group">
-    					<input type="text" class="form-control" placeholder="Monero Wallet Address *" required>
-    						<small id="passwordHelpBlock" class="form-text text-muted">
+    					<input type="text" class="form-control" placeholder="Monero Wallet Address *" name="Wallet Address" required>
+    						<small id="passwordHelpBlock" class="form-text text-muted" >
   								Need a Monero Wallet? Check out <a target="_blank"  href="https://mymonero.com/#/">MyMonero.com</a> or give it Google to find the one that best fits you.
 							</small>
   					</div>
+  					<input type="hidden" name="_subject" value="New Signup" />
+  					<input type="text" name="_gotcha" style="display:none" />
   					<div class="form-group">
-  						<button type="submit" class="btn btn-primary btn-success">Sign Up</button>
+  						<button type="submit" class="btn btn-primary btn-success" value="Send">Sign Up</button>
   					</div>
   				</form>
 			</div>
