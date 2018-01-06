@@ -1,16 +1,23 @@
-<form action="cryptofundraisr@gmail.com" method="POST">
+<form action="https://formspree.io/cryptofundraisr@gmail.com" method="POST">
   	<div class="form-group">
- 		<input type="text" class="form-control" name="Full Name" placeholder="Name" maxlength="50" required="">
+ 		<input type="text" class="form-control" placeholder="Name" name="Full Name" maxlength="50" required>
   	</div>
   	<div class="form-group">
-    	<input type="email" class="form-control" maxlength="50" name="Email Address" placeholder="Email address *" required="">
+    	<input type="email" class="form-control" maxlength="50" name="Email Address" placeholder="Email address *" required>
   	</div>
   	<div class="form-group">
-  	<textarea class="form-control" rows="3" placeholder="Your Message (300 character limit)" maxlength="300" required name="Message"></textarea>
+    	<select class="form-control" required name="_subject">
+    		<option value="" disable selected>Reason for reaching out</option>
+      		<option value="General Question">General Question</option>
+      		<option value="Media Inquiry">Media Inquiry</option>
+      		<option value="Other">Other</option>
+    	</select>
+    </div>
+  	<div class="form-group">
+  		<textarea class="form-control" rows="3" placeholder="Your Message (300 character limit)" maxlength="300" required name="Message"></textarea>
   	</div>
   	<div class="form-group">
-  		<button type="submit" class="btn btn-primary btn-success btn-md" value="send">Send Message</button>
+  		<button type="submit" class="btn btn-primary btn-success btn-md" value="Send">Send Message</button>
   	</div>
-  	<input type="hidden" name="_subject" value="New Inquiry" />
   	<input type="text" name="_gotcha" style="display:none" />
 </form>
