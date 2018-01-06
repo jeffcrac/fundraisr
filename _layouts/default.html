@@ -19,6 +19,9 @@
   		<body>
   			{% include nav.html %}   
 			{{ content }}
+			{% if page.permalink == "/" %}
+				{% include prefooter.html %}
+			{% endif%}
 			{% include json-d_tags.html %}
 			{% include footer.html %}
   		</body>
