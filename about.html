@@ -2,7 +2,7 @@
 layout: default
 title: About Fundraisr
 permalink: /about
-excerpt: Learn more about us and/or contact us.
+excerpt: Fundraisr.me empowers creators to connect with their fans and generate revenue without requiring anyone to pay. We set you up with a ready-to-go webpage that mines for cryptocurrency on your behalf. The more fans that keep your webpage open while they surf the web, the more your make.
 ---
 
 <section class="pb-3 pt-3">
@@ -15,6 +15,7 @@ excerpt: Learn more about us and/or contact us.
     			<p>
     				Fundraisr.me empowers creators to connect with their fans and generate revenue without requiring anyone to pay. We set you up with a ready-to-go webpage that mines for cryptocurrency on your behalf. The more fans that keep your webpage open while they surf the web, the more your make.
     			</p>
+    			{% include sm-icons-color.html %}
     		</div>
     		<div class="col-md-6">
 				<h2>
@@ -23,29 +24,10 @@ excerpt: Learn more about us and/or contact us.
 				<p class="pb-3">
   					To reach us, please use the form below.
   				</p>
-  				<form>
-  					<div class="form-group">
- 						<input type="text" class="form-control" placeholder="Name" maxlength="50" required>
-  					</div>
-  					<div class="form-group">
-    					<input type="email" class="form-control" maxlength="50" placeholder="Email address *" required>
-  					</div>
-  					<div class="form-group">
-    					<select class="form-control" required>
-    						<option value="" disable selected>Reason for reaching out</option>
-      						<option value="General Question">General Question</option>
-      						<option value="Media Inquiry">Media Inquiry</option>
-      						<option value="Other">Other</option>
-    					</select>
-    				</div>
-  					<div class="form-group">
-  						<textarea class="form-control" rows="3" placeholder="Your Message (300 character limit)" maxlength="300" required></textarea>
-  					</div>
-  					<div class="form-group">
-  						<button type="submit" class="btn btn-primary btn-success btn-md">Send Message</button>
-  					</div>
-  				</form>
-			</div>
+  				<div>
+  					{% include contact-form.html %}
+  				</div>
+  			</div>	
     	</div>
     </div>
 </section>
