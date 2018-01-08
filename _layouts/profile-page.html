@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+	<html lang="{{ site.lang | default: "en-US" }}">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="referrer" content="origin">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+			
+			<title>{{ page.title }} | Fundraisr.me</title>
+			<meta name="description" content="{{ page.excerpt }}">
+			
+			{% include favicon.html %}
+			{% include og_tags.html %}
+			{% include google_products.html %}
+			{% include head.html %}
+			{% include fundpage_scripts.html %}
+		</head>
+  		<body>
+  			{% include page_nav.html %}
+  			<div id="fundraisr-page" class="pb-5">
+  				{% include fundpage_header.html %}
+  				<section id="fundraisr-info" class="container">
+  					<div class="container text-md-left text-center">
+  					 	<div class="row">
+  							<div class="col-md-3 hidden-sm-down">
+  								<img class="img-fluid profile-pic" src="{{ page.profilepic | prepend: site.baseurl }}">
+  								{% include fundpage_about.html %}
+  							</div>
+  							<div class="col-md-9">
+  								<h1 class="text-capitalize font-weight-bold">
+  									{{ page.title }}
+  								</h1>
+  								<div class="col-md-3 hidden-md-up pb-2">
+  									<img style="max-width:50%" class="img-fluid profile-pic" src="{{ page.profilepic | prepend: site.baseurl }}">
+  								</div>
+  								<p class="lead">
+  									{{ page.excerpt }}
+  								</p>
+  								<div class="mb-2">
+  									{% include fundpage_progress.html %}
+  								</div>
+  								{{ content }}
+  								<p class="font-weight-bold" style="color: #405f93;">
+  									Please read the instructions below to find out how you can support {{ page.firstname }} without having to pay your hard-earned money!
+  								</p>
+  							</div>
+  						</div>
+  					</div>
+  					{% include how_to_help.html %}
+  					{% include share_page.html %}
+  				</section>
+  			</div>
+			{% include json-d_tags.html %}
+			{% include footer.html %}
+  		</body>
+</html>

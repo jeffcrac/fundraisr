@@ -1,1 +1,9 @@
-theme: jekyll-theme-cayman
+permalink: /:title
+
+collections:
+- fundpage
+
+collections:
+  fundpage:
+    output: true
+    permalink: /:year/:title

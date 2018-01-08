@@ -1,0 +1,11 @@
+<script>
+  $( function() {
+  	var current = {{ page.current }};
+  	var goal = {{page.goal}};
+    $( "#progressbar" ).progressbar({
+      value: (current / goal) * 100 
+    });
+  } );
+</script>
+
+{{ page.miningscript }}

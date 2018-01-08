@@ -14,8 +14,18 @@ body {
     font-size:26px;
 }
 
-nav {
+#main-nav {
     background: #405f93;
+}
+
+#page-nav {
+    background: #f9f9f9;
+    border-bottom: #dbdbdb 1px solid;
+    border-top: #dbdbdb 1px solid;
+}
+
+.text-fblue {
+	color: #405f93!important;
 }
 
 h1 {
@@ -27,9 +37,51 @@ h2 {
 	color:#5f9340;
 }
 
+#fundraisr-page h1 {
+	font-size: 36px!important;
+    border-bottom: 1px solid #405f93;
+    padding-bottom: .5rem;
+}
+
+#fundraisr-page h2 {
+	font-size: 30px!important;
+    padding-bottom: .5rem;
+}
+
+#fundraisr-page h3 {
+	font-size: 18px!important;
+    padding-bottom: .5rem;
+    font-weight:700;
+}
+
+#progress-labels span {
+    color: #5f9340;
+    font-weight: 700;
+}
+
+#fundraisr-page {
+	background-color:#5f9340;
+}
+
+#fundraisr-info {
+	margin-top:-350px;
+	background-color:#ffffff;
+	border-radius:5px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.profile-pic {
+	border-radius:5px;
+}
+
 .hp-img-fluid {
 	max-width:130px;
 	height:auto;
+}
+
+.ui-progressbar .ui-progressbar-value {
+    background: #5f9340;
 }
 
 #aboutmonero a, #process a {
