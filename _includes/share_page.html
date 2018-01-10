@@ -1,16 +1,30 @@
 <section class="container">
-	<h2>
+	<h2 class="text-md-left text-center">
 		Share John's Campaign
 	</h2>
-	<div class="row container">
-		<div class="col-md=4">
-			<div class="fb-share-button" data-href="{{ post.url | absolute_url  }}" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ {{ post.url | relative_url  }} | url_encode }}&amp;src=sdkpreparse">Share</a>
-			</div>
-			<div class="col-md=4">
-				<a class="twitter-share-button" href="{{ {{ post.url | relative_url  }} | url_encode }}?text=Hello%20world" data-size="large">
-					Tweet
+	<p class="text-md-left text-center">
+		Help spread the word by sharing this campaign on Facebook, Reddit, and/or Twitter! Please use these buttons below.
+	</p>
+	<div class="row container text-center">
+		<div class="col-md-4 pt-1 pb-1">			
+			<div class="fb-share-button" data-href="{{ post.url | absolute_url }}" data-layout="button" data-size="large" data-mobile-iframe="false">
+				<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?{{ post.url | absolute_url | url_encode }}&amp;src=sdkpreparse">
+					Share
 				</a>
 			</div>
+		</div>
+		<div class="col-md-4 pt-1 pb-1">
+			<a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"> <img src="//www.redditstatic.com/spreddit8.gif" alt="submit to reddit" style="border:none!important" /> </a>
+		</div>
+		<div class="col-md-4 pt-1 pb-1">
+			<a class="twitter-share-button"
+  				href="https://twitter.com/share"
+  				data-size="large"
+  				data-text="Support {{page.title}} on @Fundraisr_me"
+  				data-url="{{ site.url }}{{ site.baseurl }}{{ page.permalink }}"
+  				data-hashtags="fundraisr,support">
+				Tweet
+			</a>
 		</div>
 	</div>
 </section>

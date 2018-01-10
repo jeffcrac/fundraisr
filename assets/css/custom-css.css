@@ -41,6 +41,12 @@ h2 {
 	font-size: 36px!important;
     border-bottom: 1px solid #405f93;
     padding-bottom: .5rem;
+    line-height:1.5;
+}
+
+.btn-success {
+	background-color: #5f9340!important;
+	border-color: #5f9340!important;
 }
 
 #fundraisr-page h2 {
@@ -64,7 +70,7 @@ h2 {
 }
 
 #fundraisr-info {
-	margin-top:-350px;
+	margin-top:-300px;
 	background-color:#ffffff;
 	border-radius:5px;
 	padding-top:15px;

@@ -6,4 +6,4 @@ collections:
 collections:
   fundpage:
     output: true
-    permalink: /:year/:title
+    permalink: fundpages/:year/:title
